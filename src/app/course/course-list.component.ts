@@ -1,8 +1,9 @@
 import { Component, OnInit } from "@angular/core";
+import { Course } from "./course";
 
 @Component ({
     selector: 'app-course-list',
-    templateUrl: './course-list.componet.html'
+    templateUrl: './course-list.component.html'
 })
 
 export class  CourseListComponent implements OnInit {
@@ -16,7 +17,8 @@ export class  CourseListComponent implements OnInit {
             price: 99.99,
             code: 'XPS-8796',
             duration: 120,
-            rating: 4.5
+            rating: 4.5,
+            releaseDate: 'December, 2 , 2019',
         },
         {
             id: 2,
@@ -25,7 +27,9 @@ export class  CourseListComponent implements OnInit {
             price: 45.99,
             code: 'LKL-1094',
             duration: 80,
-            rating: 4
+            rating: 4,
+            releaseDate: 'December, 6 , 2019'
+
         },
         ]
     }
