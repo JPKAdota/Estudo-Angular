@@ -1,4 +1,3 @@
-import { TemplateLiteral } from "@angular/compiler";
 import { Component, Input, OnChanges, SimpleChanges } from "@angular/core";
 
 @Component({
